@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Kotlin related to the `removeIf` function when used with the values of a `MutableMap`.  The `removeIf` function works as expected on `MutableList`, but behaves unexpectedly on the values of a `MutableMap`. The solution provides a correct way to remove elements from a `MutableMap` based on a condition.
